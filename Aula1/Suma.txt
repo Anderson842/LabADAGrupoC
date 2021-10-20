@@ -1,0 +1,11 @@
+#Ejercicio 1
+def sum(array):
+    #La funcion devuelve la suma de los elementos de una lista
+    sum=0
+    for i in array:
+        sum=sum+i
+    return sum
+
+numbers=[1, 2, 3, 4]
+val= sum(numbers)
+print(val)
