@@ -1,0 +1,18 @@
+#Ejercicio 6
+space=int(input("Ingrese los espacios: "))
+word=input("Ingrese la palabra a enmarcar: ")
+def mark(values, num):  
+    #La funcion enmarca un dato ingresado
+    #Teniendo encuenta el espacio ingresado
+    contWord = '*' + ' ' * num  + values + ' ' * num + '*'
+    line = '*' * len(contWord)
+    empty= '*' + ' ' * (len(contWord)-2) +'*'
+    print(line)
+    for x in range(num):
+        print(empty)
+    print(contWord)
+    for x in range(num):
+        print(empty)
+    print(line)
+
+mark(word, space)
