@@ -1,0 +1,14 @@
+#Ejercicio 5
+word=input("Ingrese la palabra a enmarcar: ")
+def mark(values):  
+    #La funcion enmarca una palabra ingresada
+    contWord = '*' + ' ' *1 + values + ' ' *1  + '*'
+    line = '*' * len(contWord)
+    empty= '*' + ' ' * (len(contWord)-2) +'*'
+    print(line)
+    print(empty)
+    print(contWord)
+    print(empty)
+    print(line)
+
+mark(word)
