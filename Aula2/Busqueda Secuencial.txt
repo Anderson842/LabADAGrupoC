@@ -1,0 +1,10 @@
+def busquedaSecuencial(lista,num):
+    for i in range(0,len(lista)):
+        if num==lista[i]:
+            return True
+    return False
+
+
+lista=[1,2,3,4,5]
+num=int(input("Ingresar numero a buscar"))
+print(busquedaSecuencial(lista,num))
