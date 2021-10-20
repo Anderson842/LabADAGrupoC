@@ -1,0 +1,20 @@
+#Ejercicio 4
+def order(array):
+    #La funcion ordena 3 numeros de menor a mayor 
+    mayor=array[0]
+    medio=0
+    menor=array[0]
+    for i in array:
+        if i<menor:
+            menor=i
+    for j in array:
+        if j>mayor:
+            mayor=j
+    for i in array:
+        medio=medio+i
+    medio=medio-menor-mayor
+    return menor,medio,mayor
+
+numbers=[9, 5, 8]
+val= order(numbers)
+print(val)
