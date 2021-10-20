@@ -1,0 +1,14 @@
+#Ejercicio2
+def array_inverse(array):
+    #La funcion retorna un array en orden inverso
+    inv =[]
+    length = len(array)
+    for i in range(length-1,-1,-1):
+        inv.append(array[i]);
+    return inv
+
+
+
+numbers=[1, 3, 5, 7, 9]
+val= array_inverse(numbers)
+print(val)
