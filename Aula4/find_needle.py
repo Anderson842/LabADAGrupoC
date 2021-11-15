@@ -1,6 +1,7 @@
 #Complejidad
 def find_needle(needle, haystack):
 #la complejidad seria BigO(n^2)
+#recorre ambos ciclos while
     needle_index=0
     haystack_index=0
     
