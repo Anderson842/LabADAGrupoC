@@ -6,5 +6,5 @@ for i in range(n):
     if(n<1):
         break
 
-#O(n(n-1)/2)
+
 #La complejidad es O(n/2)
